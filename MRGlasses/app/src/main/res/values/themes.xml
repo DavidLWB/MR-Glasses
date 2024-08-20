@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ARGlasses" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:screenOrientation">landscape</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 纯透明Dialog属性-->
+    <style name="TransparentDialogTheme" parent="android:Theme.Dialog">
+        <!-- 是否有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!--是否在悬浮Activity之上  -->
+        <item name="android:windowIsFloating">true</item>
+        <!--标题  -->
+        <item name="android:windowNoTitle">true</item>
+        <!--阴影  -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--透明背景-->
+        <item name="android:background">#00000000</item>
+        <!--窗口背景透明-->
+        <item name="android:windowBackground">#00000000</item>
+        <!--弹窗背景是否变暗-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
